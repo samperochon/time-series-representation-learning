@@ -41,8 +41,8 @@ class TripletLossXent(nn.Module):
 
         Parameters:
         ----------
-            temp: The temperature parameter.
-        '''
+            temp: The temperature parameter
+    '''
 
     def __init__(self, temp=1):
         super().__init__()
